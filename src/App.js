@@ -5,6 +5,7 @@ import MyNavBar from './components/MyNavBar'
 import ProfilePage from './components/ProfilePage'
 import SettingPage from './components/SettingsPage'
 import TopItem from './components/TopItem'
+// ATTENZIONE, IO USO FIREFOX PER CUI SE ALCUNE COSA SU CHROME SONO DIVERSE NON SO
 
 //PER VEDERE LA PAGINA HOME IMPORTARE SOLO MyNavBar, TopItem, Moives*3 e MyFooter
 //PER VEDERE LA PAGINA PROFILE IMPORTARE SOLO MyNavBar, ProfilePage e MyFooter
