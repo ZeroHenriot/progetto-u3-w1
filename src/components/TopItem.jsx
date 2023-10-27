@@ -14,7 +14,7 @@ function TopItem() {
             <h1 className="fw-bold me-3 mb-0 display-5">TV Shows</h1>
           </div>
           <Dropdown>
-            <Dropdown.Toggle variant="border-secondary text-white btn-outline-secondary ">
+            <Dropdown.Toggle variant="border-secondary text-white btn-outline-dark ">
               Genres
             </Dropdown.Toggle>
             <Dropdown.Menu>

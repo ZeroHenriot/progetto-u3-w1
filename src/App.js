@@ -5,19 +5,24 @@ import MyNavBar from './components/MyNavBar'
 import ProfilePage from './components/ProfilePage'
 import SettingPage from './components/SettingsPage'
 import TopItem from './components/TopItem'
+
+//PER VEDERE LA PAGINA HOME IMPORTARE SOLO MyNavBar, TopItem, Moives*3 e MyFooter
+//PER VEDERE LA PAGINA PROFILE IMPORTARE SOLO MyNavBar, ProfilePage e MyFooter
+//PER VEDERE LA PAGINA SETTING IMPORTARE SOLO MyNavBar, SettingPage e MyFooter
+
 function App() {
   return (
     <div className="bg-primary">
       <header>
         <MyNavBar />
-        {/* <TopItem /> */}
+        <TopItem />
       </header>
       <main>
-        {/* <Movies saga={'harry potter'} />
+        <Movies saga={'harry potter'} />
         <Movies saga={'star wars'} />
-        <Movies saga={'lord of rings'} /> */}
+        <Movies saga={'lord of rings'} />
         {/* <SettingPage /> */}
-        <ProfilePage />
+        {/* <ProfilePage /> */}
       </main>
       <footer>
         <MyFooter />

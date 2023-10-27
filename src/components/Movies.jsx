@@ -82,7 +82,7 @@ class Movies extends Component {
               <Row className="justify-content-center">
                 {this.state.movies.slice(5, 10).map((movie) => (
                   <Col
-                    className="col-md-4 col-lg-4 px-1 mx-3"
+                    className="col-md-4 col-lg-2 px-1 mx-3"
                     key={movie.imdbID}
                   >
                     <Card className="h-100 bg-primary">
